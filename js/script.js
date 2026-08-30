@@ -14,7 +14,7 @@ function updateActiveNav() {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.offsetHeight;
         const sectionId = section.getAttribute("id");
-
+        
         if (
             scrollPosition >= sectionTop &&
             scrollPosition < sectionTop + sectionHeight
